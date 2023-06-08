@@ -43,7 +43,6 @@ public class Main {
         String surname = "Krasnenko";
         System.out.println(name + " " + surname);
         System.out.printf("% %s", name, surname);
-        System.out.println("% %s\n", name, surname);
 
         System.out.println(String.format(""));
 
@@ -63,13 +62,6 @@ public class Main {
         int x = 10;
         int y = 10 % 4;
         System.out.println(y);
-
-
-
-
-
-
-
     }
 
 }
