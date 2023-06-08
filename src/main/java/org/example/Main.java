@@ -24,7 +24,7 @@ public class Main {
         System.out.println(populationofLatvia);
 
         //char
-        char myFirstNameChar = `V`;
+        char myFirstNameChar = 'V';
         System.out.println(myFirstNameChar);
 
         //byte
@@ -42,7 +42,7 @@ public class Main {
         String name = "Valeriia";
         String surname = "Krasnenko";
         System.out.println(name + " " + surname);
-        System.out.printf("% %s", name, surname);
+       // System.out.printf("% %s", name, surname);
 
         System.out.println(String.format(""));
 
