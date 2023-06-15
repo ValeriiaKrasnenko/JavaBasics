@@ -68,32 +68,33 @@ public class Loop {
 
         Scanner myScanner = new Scanner(System.in);
         Random randomizer = new Random();
-        int randomNumber = randomizer.nextInt( 5 );
+        int randomNumber = randomizer.nextInt(5);
 
 
         boolean isGuessed = false;
         while (!isGuessed) {
             System.out.println("Please enter number I guessed:");
-        int inputNumber = myScanner.nextInt();
-        if (randomNumber == inputNumber) {
-            System.out.println("You guessed the number!");
-            IsGuessed = true;
-        } else {
-            System.out.println("Try again!");
+            int inputNumber = myScanner.nextInt();
+            if (randomNumber == inputNumber) {
+                System.out.println("You guessed the number!");
+                isGuessed = true;
+            } else {
+                System.out.println("Try again!");
+            }
+
         }
 
-    }
-
-    // TODO: Limit guess with 3 times;
+        // TODO: Limit guess with 3 times;
 
 
-        Stream.of(fruits).Filter(s -> s.equals("kiwi").forEach(System.out::println);
+        Stream.of(fruits).filter(s -> s.equals("kiwi")).forEach(System.out::println);
 
         String name = "Nikita";
         String reversed = "";
-        for (int l = name.length() - 1; l >= 0 ; l--) {
+        for (int l = name.length() - 1; l >= 0; l--) {
             reversed = reversed + name.charAt(l);
 
         }
         System.out.println(reversed);
-        }
+    }
+}
